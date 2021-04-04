@@ -17,4 +17,3 @@ jobs:
         heroku_app_name: "gpacalculatorex31" #Must be unique in Heroku
         heroku_email: "alibayramcavus@hotmail.com"
         usedocker: true
-        env_file: ".env"
