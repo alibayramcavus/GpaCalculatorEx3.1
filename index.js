@@ -19,7 +19,7 @@ app.get("/calculate", (req, res) => {
 app.get("/", (req, res) => {
     res.send("Listening")
 })
-
-app.listen(3000, () => {
-    console.log("Server running on " + 3000)
+const port = process.env.PORT || 80
+app.listen(port, () => {
+    console.log("Server running on " + port)
 })
